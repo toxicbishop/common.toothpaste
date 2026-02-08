@@ -52,7 +52,7 @@ When you run the script, you'll be prompted for:
 
 ### Example Session
 
-```
+```text
 ============================================================
 🌱 Welcome to graph-greener - GitHub Contribution Graph Commit Generator 🌱
 ============================================================
@@ -114,7 +114,7 @@ Contributions are welcome! Feel free to:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is **free to use** - no license required! Feel free to use, modify, and distribute as you wish.
 
 ## 🌟 Show Your Support
 
