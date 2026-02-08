@@ -1,3 +1,3 @@
 # example
 
-Private
+Public
