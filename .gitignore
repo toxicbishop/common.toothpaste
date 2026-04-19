@@ -1,0 +1,5 @@
+#Claude
+.claude
+
+# Local bot runtime state
+last_run_date.txt

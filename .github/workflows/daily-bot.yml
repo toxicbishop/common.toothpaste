@@ -1,0 +1,29 @@
+name: Daily Green Square Bot
+
+on:
+  workflow_dispatch:      # Only runs when manually triggered from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Generate Activity
+        run: |
+          # Committing multiple times daily to darken the graph
+          python main.py --silent --commits 3 --offset 0 --repo .
+          
+      - name: Push changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "actions@github.com"
+          git push
