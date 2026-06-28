@@ -3,3 +3,5 @@
 
 # Local bot runtime state
 last_run_date.txt
+__pycache__/
+*.pyc
