@@ -19,7 +19,7 @@ A Python tool to automatically generate commits and fill your GitHub contributio
 
 ### Prerequisites
 
-- Python 3.6 or higher
+- Python 3.12.x or higher
 - Git installed and configured
 - A GitHub repository (initialized with git)
 
@@ -38,7 +38,7 @@ cd common.toothpaste
 python main.py
 ```
 
-### Advance Usage (CLI Flags)
+### Advanced Usage (CLI Flags)
 
 Generate 100 random commits silently in the previous year:
 
@@ -101,7 +101,3 @@ Give a star if this project helped you!
 ---
 
 **Disclaimer**: This tool is for educational and personal use. Please use it ethically and in accordance with GitHub's terms of service.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
